@@ -2,7 +2,16 @@
 const chalk = require('chalk');
 const log = console.log;
 
-log(`Hello! My name is ${chalk.red('Lincon Kusunoki')}`);
+log(
+  chalk.red(`
+ ██╗     ██╗███╗   ██╗ ██████╗ ██████╗ ███╗   ██╗
+ ██║     ██║████╗  ██║██╔════╝██╔═══██╗████╗  ██║
+ ██║     ██║██╔██╗ ██║██║     ██║   ██║██╔██╗ ██║
+ ██║     ██║██║╚██╗██║██║     ██║   ██║██║╚██╗██║
+ ███████╗██║██║ ╚████║╚██████╗╚██████╔╝██║ ╚████║
+ ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
+ `)
+);
 
 log(
   `I'm a ${chalk.gray('<span>')}${chalk.red('Front-end Developer')}${chalk.gray(
