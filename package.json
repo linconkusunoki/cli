@@ -1,0 +1,28 @@
+{
+  "name": "linconkusunoki",
+  "version": "1.0.0",
+  "description": "My personal information",
+  "main": "index.js",
+  "author": "Lincon Kusunoki",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "personal info"
+  ],
+  "bin": {
+    "linconkusunoki": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linconkusunoki/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/linconkusunoki/cli/issues"
+  }
+}
