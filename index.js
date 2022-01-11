@@ -14,7 +14,7 @@ log(
 );
 
 log(
-  `I'm a ${chalk.gray('<span>')}${chalk.red('Front-end Developer')}${chalk.gray(
+  `I'm a ${chalk.gray('<span>')}${chalk.red('Senior Frontend Engineer')}${chalk.gray(
     '</span>'
   )}`
 );
@@ -28,11 +28,13 @@ My favorite languages are ${chalk.blue(`
 
 log(`
 Currently I'm working with ${chalk.blue(`
-  - React/Redux/Gatsby
-  - Storybook
+  - React/React-Native
+  - Clean Architecture
+  - Design Patterns
+  - TDD
+  - Internet of Things
   - Styled Components/Sass
   - NodeJS/Express
-  - MongoDB
   - Bootstrap/Material/Tailwind
   - Jest & Testing Library
   - Webpack
